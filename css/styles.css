@@ -280,6 +280,7 @@ button {
 }
 
 .features-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 264px;
@@ -323,9 +324,9 @@ button {
   align-items: center;
 }
 
-.social-links {
+/* .social-links {
   padding: 4px 0;
-}
+} */
 
 .social-links .icon-box {
   width: 40px;
