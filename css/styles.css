@@ -363,11 +363,11 @@ button {
   border-radius: 4px;
 }
 
-/* .customers .list {
+.customers .list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} */
+}
 
 .customers .item {
   display: inline-flex;
@@ -376,12 +376,13 @@ button {
   padding: 16px 32px;
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
-  /* fill: var(--customers-logos); */
 }
 
 .list-customers .item:hover,
-.list-customers .item:focus {
-  border: var(--primary-brand);
+.list-customers .item:focus,
+.customers .icon:hover,
+.customers .icon:focus {
+  border-color: var(--primary-brand);
   fill: var(--primary-brand);
 }
 
