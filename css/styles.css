@@ -2,6 +2,7 @@
   /* colors */
 
   --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
   --dark: #2e2f42;
   --success: #31d0aa;
   --text: #434455;
@@ -204,7 +205,7 @@ button {
 }
 
 .hero-button:active {
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
 }
 
 .section-header {
@@ -338,6 +339,10 @@ button {
 .social-links .icon {
   width: 16px;
   height: 16px;
+}
+
+.social-links .icon:active {
+  fill: var(--pressed-state);
 }
 
 /* customers */
