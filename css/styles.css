@@ -8,6 +8,7 @@
   --subtle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
+  --customers-logos: #afb1b8;
 
   /* fonts */
   --font-main: "Roboto", sans-serif;
@@ -163,6 +164,16 @@ button {
   background: var(--dark);
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  min-height: 600px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-header {
@@ -239,16 +250,6 @@ button {
   color: var(--text);
 }
 
-.list-features .item + .item,
-.list-services .item + .item,
-.list-team .item + .item {
-  margin-left: 24px;
-}
-
-.list-features .item {
-  width: 264px;
-}
-
 .our-team {
   background-color: var(--light);
 }
@@ -264,6 +265,114 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+/* features */
+
+.list-features .item + .item,
+.list-services .item + .item,
+.list-team .item + .item {
+  margin-left: 24px;
+}
+
+.list-features .item {
+  width: 264px;
+}
+
+.features-icon {
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: var(--light);
+  border-radius: 4px;
+  padding: 0;
+}
+
+.features-icon .icon {
+  width: 64px;
+  height: 64px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* team */
+
+.item .container {
+  width: 264px;
+}
+
+/* social-icon-style */
+
+.icon-box > .link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-list > .link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  padding: 4px 0;
+}
+
+.social-links .icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+}
+
+.social-links .icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* customers */
+
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.customers .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customers .item {
+  display: inline-flex;
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
+  /* fill: var(--customers-logos); */
+}
+
+.list-customers .item:hover,
+.list-customers .item:focus {
+  border: var(--primary-brand);
+  fill: var(--primary-brand);
+}
+
+.customers .icon {
+  display: inline-block;
+  fill: var(--customers-logos);
+  width: 104px;
+  height: 56px;
 }
 
 /* Footer */
