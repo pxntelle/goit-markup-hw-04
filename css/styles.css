@@ -352,11 +352,22 @@ button {
   padding-bottom: 120px;
 }
 
-.customers .list {
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  fill: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+/* .customers .list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .customers .item {
   display: inline-flex;
