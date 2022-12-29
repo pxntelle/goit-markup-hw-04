@@ -414,6 +414,17 @@ button {
   width: 264px;
 }
 
+.footer .container {
+  display: flex;
+}
+
+.footer .social-links .icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
 /* Portfolio main */
 
 .portfolio {
