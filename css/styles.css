@@ -336,6 +336,11 @@ button {
   border-radius: 50%;
 }
 
+.social-links .icon-box:hover,
+.social-links .icon-box:focus {
+  background-color: var(--pressed-state);
+}
+
 .social-links .icon {
   width: 16px;
   height: 16px;
@@ -418,11 +423,16 @@ button {
   display: flex;
 }
 
-.footer .social-links .icon-box {
+.footer .icon-box {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.footer .icon-box:hover,
+.footer .icon-box:focus {
+  background-color: var(--success);
 }
 
 /* Portfolio main */
