@@ -429,6 +429,9 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+.footer .icon-box:not(:last-child) {
+  margin-right: 16px;
+}
 
 .footer .icon-box:hover,
 .footer .icon-box:focus {
