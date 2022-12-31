@@ -399,6 +399,7 @@ button {
 .list-customers .item:hover,
 .list-customers .item:focus {
   color: var(--primary-brand);
+  fill: var(--primary-brand);
   border: 1px solid var(--primary-brand);
 }
 
