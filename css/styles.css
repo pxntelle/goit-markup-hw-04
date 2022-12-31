@@ -204,7 +204,9 @@ button {
   border-radius: 4px;
 }
 
-.hero-button:active {
+.hero-button:active,
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--pressed-state);
 }
 
@@ -382,12 +384,27 @@ button {
   border-radius: 4px;
 }
 
-.list-customers .item:hover,
-.list-customers .item:focus,
-.customers .icon:hover,
-.customers .icon:focus {
-  border-color: var(--primary-brand);
-  fill: var(--primary-brand);
+.list-customers link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--subtle-text);
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
+}
+
+.list-customers .link:hover,
+.list-customers .link:focus {
+  color: var(--primary-brand);
+  border: 1px solid var(--primary-brand);
+}
+
+.list-customers .icon {
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
 }
 
 .customers .icon {
@@ -405,6 +422,11 @@ button {
   padding-bottom: 100px;
 }
 
+.footer-logo-text {
+  margin-left: 156px;
+  margin-right: 120px;
+}
+
 .footer-logo-accent {
   color: var(--light);
 }
@@ -418,12 +440,13 @@ button {
   width: 264px;
 }
 
-.social-media text {
+.social-media-text {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer .container {
