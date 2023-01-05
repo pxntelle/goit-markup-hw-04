@@ -62,7 +62,8 @@ img {
   height: auto;
 }
 
-button {
+button,
+link {
   cursor: pointer;
 }
 
@@ -339,19 +340,15 @@ button {
   padding: 12px;
 }
 
-.social-links .icon-box:active,
-.social-links .icon-box:hover,
-.social-links .icon-box:focus {
+.icon-box .link:active,
+.icon-box .link:hover,
+.icon-box .link:focus {
   background-color: var(--pressed-state);
 }
 
 .social-links .icon {
   width: 40px;
   height: 40px;
-}
-
-.social-links .icon:active {
-  fill: var(--pressed-state);
 }
 
 /* customers */
