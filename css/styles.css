@@ -488,7 +488,7 @@ link {
   justify-content: space-between;
 }
 
-.footer .icon-box {
+.footer .icon-box .link {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -499,8 +499,8 @@ link {
   margin-right: 16px;
 }
 
-.footer .icon-box:hover,
-.footer .icon-box:focus {
+.footer .icon-box .link:hover,
+.footer .icon-box .link:focus {
   background-color: var(--success);
 }
 
