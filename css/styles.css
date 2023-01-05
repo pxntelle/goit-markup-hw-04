@@ -499,6 +499,10 @@ link {
   margin-right: 16px;
 }
 
+.footer .icon {
+  max-width: 24px;
+}
+
 .footer .icon-box .link:hover,
 .footer .icon-box .link:focus {
   background-color: var(--success);
@@ -545,13 +549,14 @@ link {
   margin-bottom: 120px;
 }
 
-.all-projects-list .item {
+.all-projects-list .link {
+  display: block;
   border: 1px solid var(--accent);
   overflow: hidden;
 }
 
-.all-projects-list .item:hover,
-.all-projects-list .item:focus {
+.all-projects-list .link:hover,
+.all-projects-list .link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
