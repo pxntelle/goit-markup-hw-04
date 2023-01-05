@@ -347,8 +347,8 @@ link {
 }
 
 .social-links .icon {
-  width: 40px;
-  height: 40px;
+  width: 16px;
+  height: 16px;
 }
 
 .social-links .icon:active {
@@ -454,7 +454,6 @@ link {
 }
 
 .footer-logo-text {
-  margin-left: 156px;
   margin-right: 120px;
 }
 
@@ -493,6 +492,7 @@ link {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  padding: 8px;
 }
 
 .footer .icon-box:not(:last-child) {
