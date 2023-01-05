@@ -332,7 +332,7 @@ link {
   align-items: center;
 }
 
-.social-links .icon-box {
+.icon-box .link {
   width: 40px;
   height: 40px;
   background-color: var(--primary-brand);
@@ -349,6 +349,10 @@ link {
 .social-links .icon {
   width: 40px;
   height: 40px;
+}
+
+.social-links .icon:active {
+  fill: var(--pressed-state);
 }
 
 /* customers */
